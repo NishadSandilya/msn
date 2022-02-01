@@ -1,0 +1,57 @@
+{
+  "name": "msncataractandiolhospital",
+  "homepage": "https://msneyehospital.com",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@hookform/resolvers": "^2.5.1",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.21.1",
+    "emailjs": "^3.7.0",
+    "emailjs-com": "^3.2.0",
+    "gh-pages": "^3.2.3",
+    "google-map-react": "^2.1.10",
+    "google-maps-react": "^2.0.6",
+    "mapbox-gl": "^2.6.1",
+    "react": "^17.0.2",
+    "react-animated-slider": "^2.0.0",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.6.4",
+    "react-loader-spinner": "^4.0.0",
+    "react-mapbox-gl": "^5.1.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.2",
+    "yup": "^0.32.9"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build && cp build/index.html build/200.html",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
