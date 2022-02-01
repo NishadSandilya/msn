@@ -4,7 +4,7 @@
 import ReactDOM from 'react-dom'
 import App from './App'
 import './styles/app.css'
-import { BrowserRouter as Router } from 'react-router-dom'
+import { HashRouter as Router } from 'react-router-dom'
 import { DataProvider } from './store/Data'
 
 ReactDOM.render(
