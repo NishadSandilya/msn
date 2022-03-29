@@ -537,7 +537,7 @@ const Home = () => {
                             {/* Appointment wrapper 2 here */}
                             <Appointment2></Appointment2>
                         </div>
-                        <div className="home__contact-us__p2__p2__photos">
+                        {/* <div className="home__contact-us__p2__p2__photos">
                             <Map
                                 style="mapbox://styles/mapbox/streets-v9"
                                 containerStyle={{
@@ -551,7 +551,7 @@ const Home = () => {
                                     <img src={logo} width={32} alt="Location" />
                                 </Marker>
                             </Map>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
