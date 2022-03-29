@@ -100,7 +100,7 @@ const Home = () => {
         }
     }, [])
 
-    console.log(dim)
+    // console.log(dim)
     const CondHere = () => {
         if (dim.width < 480 || dim.height < 480) {
             return (
